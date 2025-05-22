@@ -2,6 +2,32 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+	  <Authors>Hannes Barbez</Authors>
+	  <Company>Hannes Barbez</Company>
+	  <Title>BarbezDotEu.Diagnostics</Title>
+	  <Product>BarbezDotEu.Diagnostics</Product>
+	  <PackageId>BarbezDotEu.Diagnostics</PackageId>
+	  <Copyright>©2025 Hannes Barbez</Copyright>
+	  <Version>1.0.0</Version>
+	  <Description>
+		  Diagnostics-related functionality
+	  </Description>
+	  <PackageTags>basic;Diagnostics;ProcessRunner</PackageTags>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageProjectUrl>https://barbez.eu</PackageProjectUrl>
+	  <PackageOutputPath>./nupkg</PackageOutputPath>
+	  <RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.Diagnostics</RepositoryUrl>
+	  <RepositoryType>GIT</RepositoryType>
+	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageIcon>ICON.png</PackageIcon>
+	  <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\ICON.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
 
 </Project>

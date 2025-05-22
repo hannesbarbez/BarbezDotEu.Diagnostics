@@ -1,4 +1,7 @@
-﻿using System.Diagnostics;
+﻿// Copyright (c) Hannes Barbez. All rights reserved.
+// Licensed under the MIT License.
+
+using System.Diagnostics;
 
 namespace BarbezDotEu.Diagnostics
 {
