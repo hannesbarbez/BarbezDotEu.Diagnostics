@@ -7,7 +7,7 @@
         <Product>BarbezDotEu.Diagnostics</Product>
         <PackageId>BarbezDotEu.Diagnostics</PackageId>
         <Copyright>©2026 Hannes Barbez</Copyright>
-        <Version>2.0.1</Version>
+        <Version>2.0.0</Version>
         <Description>Diagnostics-related functionality</Description>
         <PackageTags>basic;Diagnostics;ProcessRunner</PackageTags>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
